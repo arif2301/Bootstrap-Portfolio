@@ -4,58 +4,91 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Arifur Rahman</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1">Arifur Rahman</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>  
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  
+
+  <!--projects listed in 2 columns-->  
+  <div class="container">
+    <div class= "row">
+      <h2>Portfolio</h2>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
+    <!-- word guess and rpg game-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src = "assets/images/technics-q-c-640-480-1.jpg" alt="game image 1" class="img-thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Word Guess</h5>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src = "assets/images/technics-q-c-640-480-2.jpg" alt="game image 1" class="img-thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">RPG Game</h5>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
+    </div>  
+    <!-- Trivia Game and Rutgers Info Widget-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src = "assets/images/technics-q-c-640-480-5.jpg" alt="game image 5" class="img-thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Trivia Game</h5>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src = "assets/images/technics-q-c-640-480-7.jpg" alt="game image 7" class="img-thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Rutgers Info Widget</h5>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
+    </div>  
+    <!-- Rock Paper Scissors-->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src = "assets/images/technics-q-c-640-480-9.jpg" alt="game image 9" class="img-thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Trivia Game</h5>
+          </div>
+        </div>
       </div>
-
-    </section>
-
+    </div>      
   </div>
 
+  
   <footer>
     <div class="container">
       Copyright &copy;
